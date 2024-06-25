@@ -12,7 +12,7 @@ struct UberCloneApp: App {
     @StateObject var locationViewModel = LocationSearchViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
                 .environmentObject(locationViewModel)
         }
     }
